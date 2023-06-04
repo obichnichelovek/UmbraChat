@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>D:\Other\C#\UmbraChat\UmbraClient\Properties\PublishProfiles\UmbraClient.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CustomControls\BindablePasswordBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CustomControls\BindablePasswordBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ChatItems.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ContactListItems.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Icons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\InputBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\LoginButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\MessageInputBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Label.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Scrollbar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\WindowButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

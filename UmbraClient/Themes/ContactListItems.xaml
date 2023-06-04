@@ -1,0 +1,66 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style TargetType="ListViewItem" x:Key="ContactListViewItemsStyle" >
+
+        <!-- Triggers -->
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="#1c1c1c" />
+            </Trigger>
+
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsSelected" Value="false" />
+                    <Condition Property="IsMouseOver" Value="true" />
+                </MultiTrigger.Conditions>
+
+                <MultiTrigger.Setters>
+                    <Setter Property="Background" Value="#141414" />
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+
+        </Style.Triggers>
+
+        <!-- Default Props -->
+        <Setter Property="Background" Value="#0f0f0f" />
+        <Setter Property="Foreground" Value="#bbb" />
+        <Setter Property="FontFamily" Value="Fonts/#Noto Sans" />
+
+        <!-- Template -->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListViewItem">
+
+                    <!-- Card Background -->
+                    <Border Background="{TemplateBinding Background}"
+                                Height="50"
+                                Margin="8 2 8 2"
+                                CornerRadius="1">
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="10 0 0 0">
+
+                            <!-- Avatar -->
+                            <Ellipse Width="32"
+                                         Height="32">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="{Binding ImageSource}" />
+                                </Ellipse.Fill>
+                            </Ellipse>
+
+                            <!-- Content -->
+                            <StackPanel>
+                                <Label Content="{Binding Username}"
+                                           Foreground="{TemplateBinding Foreground}" />
+                                <Label Content="{Binding LastMessage}"
+                                           Foreground="{TemplateBinding Foreground}" />
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

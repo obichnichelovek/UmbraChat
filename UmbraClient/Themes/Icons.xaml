@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Icons -->
+    <Style TargetType="Path" x:Key="IconStyle">
+        <Style.Setters>
+            <Setter Property="Stretch" Value="Uniform" />
+            <Setter Property="Height" Value="18" />
+            <Setter Property="Width" Value="18" />
+            <Setter Property="RenderOptions.BitmapScalingMode" Value="Fant" />
+            <Setter Property="Fill" Value="#fffacd" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style.Setters>
+    </Style>
+
+    <!-- Big Icons -->
+    <Style TargetType="Path" x:Key="BigIconStyle" BasedOn="{StaticResource IconStyle}">
+        <Style.Setters>
+            <Setter Property="Height" Value="24" />
+            <Setter Property="Width" Value="24" />
+            <Setter Property="Fill" Value="#bbb" />
+        </Style.Setters>
+    </Style>
+
+</ResourceDictionary>

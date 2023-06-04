@@ -1,0 +1,5 @@
+D:\Other\C#\UmbraChat\UmbraServer\bin\Release\net6.0\app.publish\UmbraServer.exe
+D:\Other\C#\UmbraChat\UmbraServer\bin\Release\net6.0\app.publish\UmbraServer.dll
+D:\Other\C#\UmbraChat\UmbraServer\bin\Release\net6.0\app.publish\UmbraServer.deps.json
+D:\Other\C#\UmbraChat\UmbraServer\bin\Release\net6.0\app.publish\UmbraServer.runtimeconfig.json
+D:\Other\C#\UmbraChat\UmbraServer\bin\Release\net6.0\app.publish\UmbraServer.pdb

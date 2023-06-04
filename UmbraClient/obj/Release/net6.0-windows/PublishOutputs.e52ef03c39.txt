@@ -1,0 +1,12 @@
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\UmbraClient.exe
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\UmbraClient.dll
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\UmbraClient.deps.json
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\UmbraClient.runtimeconfig.json
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\UmbraClient.pdb
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\Microsoft.Xaml.Behaviors.dll
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\System.Data.SqlClient.dll
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\runtimes\win-arm64\native\sni.dll
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\runtimes\win-x64\native\sni.dll
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\runtimes\win-x86\native\sni.dll
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Other\C#\UmbraChat\UmbraClient\bin\Release\net6.0-windows\app.publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

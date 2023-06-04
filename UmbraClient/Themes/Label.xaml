@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Style TargetType="Label">
+        <Style.Setters>
+            <Setter Property="Foreground" Value="#bbb" />
+            <Setter Property="FontFamily" Value="#Noto Sans" />
+            <Setter Property="FontWeight" Value="Light" />
+        </Style.Setters>
+    </Style>
+
+</ResourceDictionary>

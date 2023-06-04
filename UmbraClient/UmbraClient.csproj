@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\NotoSans-Black.ttf" />
+    <None Remove="Fonts\NotoSans-BlackItalic.ttf" />
+    <None Remove="Fonts\NotoSans-Bold.ttf" />
+    <None Remove="Fonts\NotoSans-BoldItalic.ttf" />
+    <None Remove="Fonts\NotoSans-ExtraBold.ttf" />
+    <None Remove="Fonts\NotoSans-ExtraBoldItalic.ttf" />
+    <None Remove="Fonts\NotoSans-ExtraLight.ttf" />
+    <None Remove="Fonts\NotoSans-ExtraLightItalic.ttf" />
+    <None Remove="Fonts\NotoSans-Italic.ttf" />
+    <None Remove="Fonts\NotoSans-Light.ttf" />
+    <None Remove="Fonts\NotoSans-LightItalic.ttf" />
+    <None Remove="Fonts\NotoSans-Medium.ttf" />
+    <None Remove="Fonts\NotoSans-MediumItalic.ttf" />
+    <None Remove="Fonts\NotoSans-Regular.ttf" />
+    <None Remove="Fonts\NotoSans-SemiBold.ttf" />
+    <None Remove="Fonts\NotoSans-SemiBoldItalic.ttf" />
+    <None Remove="Fonts\NotoSans-Thin.ttf" />
+    <None Remove="Fonts\NotoSans-ThinItalic.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\NotoSans-Black.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-BlackItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-Bold.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-BoldItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-ExtraBold.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-ExtraBoldItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-ExtraLight.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-ExtraLightItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-Italic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-Light.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-LightItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-Medium.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-MediumItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-Regular.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-SemiBold.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-SemiBoldItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-Thin.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\NotoSans-ThinItalic.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
