@@ -15,7 +15,7 @@ internal sealed class MainViewModel : ObservableObject
     private string message = string.Empty;
     private string username = "admin";
     private SecureString password = null!;
-    private string usernameColor = "Light" + colors[new Random().Next(0, colors.Length)];
+    private string usernameColor = GetRandomColor();
     private ContactModel? selectedContact;
     private readonly Server server;
     private string errorMessage = null!;
@@ -53,13 +53,17 @@ internal sealed class MainViewModel : ObservableObject
     }
 
 
-    private static readonly string[] colors = new string[5]
+    private static readonly string[] colors = new string[9]
     {
         "Red",
         "Green",
         "Blue",
-        "Gray",
-        "Yellow"
+        "Coral",
+        "Pink",
+        "SeaGreen",
+        "SkyBlue",
+        "SteelBlue",
+        "Maroon"
     };
 
     public string Username
@@ -111,7 +115,7 @@ internal sealed class MainViewModel : ObservableObject
             if (!string.IsNullOrEmpty(Message))
             {
                 server.SendMessageToServer(Message);
-                UsernameColor = "Light" + colors[new Random().Next(0, colors.Length)];
+                UsernameColor = GetRandomColor();
                 Message = string.Empty;
             }
         });
@@ -152,4 +156,6 @@ internal sealed class MainViewModel : ObservableObject
         if (!Users.Any(x => x.UID == user.UID))
             Application.Current.Dispatcher.Invoke(() => Users.Add(user));
     }
+
+    private static string GetRandomColor() => colors[new Random().Next(0, colors.Length)];
 }

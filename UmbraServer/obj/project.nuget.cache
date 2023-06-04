@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n1MTpdu8X+Z13eRJkfzVb0rXpl+GQRC91NqX/wiMk4YHfvWqn1LQeMG/HuC1VhoLY9sTPgXo0NoL9EUojoOW+w==",
+  "dgSpecHash": "yq1QL3/qyrGNqFyDZBndt48QNPoef8FzdvAVbUNlzuAS74c7v55VGBUPbSNzheikb0DXnj/nkzZ277tJh7/3wA==",
   "success": true,
-  "projectFilePath": "D:\\Other\\C#\\UmbraChat\\UmbraServer\\UmbraServer.csproj",
+  "projectFilePath": "C:\\Users\\student\\Desktop\\UmbraChat\\UmbraServer\\UmbraServer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

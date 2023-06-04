@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Other\C#\UmbraChat\UmbraClient\obj\Debug\net6.0-windows\
+C:\Users\student\Desktop\UmbraChat\UmbraClient\obj\Debug\net6.0-windows\
 UmbraClient
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\Other\C#\UmbraChat\UmbraClient\App.xaml
+C:\Users\student\Desktop\UmbraChat\UmbraClient\App.xaml
 131714553464
 11562050264
 181220109807
-196-1661359388
+1961272223215
 CustomControls\BindablePasswordBox.xaml;Login.xaml;MainWindow.xaml;Themes\Button.xaml;Themes\ChatItems.xaml;Themes\ContactListItems.xaml;Themes\Icons.xaml;Themes\InputBox.xaml;Themes\Label.xaml;Themes\LoginButton.xaml;Themes\MessageInputBox.xaml;Themes\Scrollbar.xaml;Themes\WindowButtons.xaml;
 
 False
