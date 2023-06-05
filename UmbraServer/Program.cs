@@ -8,7 +8,7 @@ namespace UmbraServer;
 internal partial class Program
 {
     private static List<Client> users = new();
-    static readonly TcpListener listener = new(IPAddress.Parse("192.168.100.7"), 8080);
+    static readonly TcpListener listener = new(IPAddress.Parse(GetLocalIP()), 8080);
 
     public static void Main()
     {
@@ -69,5 +69,14 @@ internal partial class Program
             user.ClientSocket.Client.Send(broadcastPacket.GetPacketBytes());
         }
         BroadcastMessage($"{disconnectedUser!.Username} disconnected");
+    }
+
+    private static string GetLocalIP()
+    {
+        var host = Dns.GetHostEntry(Dns.GetHostName());
+        foreach (var ip in host.AddressList)
+            if (ip.AddressFamily == AddressFamily.InterNetwork) return ip.ToString();
+
+        throw new Exception("No network adapters with an IPv4 address in the system!");
     }
 }

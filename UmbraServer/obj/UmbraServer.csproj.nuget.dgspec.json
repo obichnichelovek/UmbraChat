@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Desktop\\UmbraChat\\UmbraServer\\UmbraServer.csproj": {}
+    "D:\\Other\\UmbraChat\\UmbraServer\\UmbraServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Desktop\\UmbraChat\\UmbraServer\\UmbraServer.csproj": {
+    "D:\\Other\\UmbraChat\\UmbraServer\\UmbraServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Desktop\\UmbraChat\\UmbraServer\\UmbraServer.csproj",
+        "projectUniqueName": "D:\\Other\\UmbraChat\\UmbraServer\\UmbraServer.csproj",
         "projectName": "UmbraServer",
-        "projectPath": "C:\\Users\\student\\Desktop\\UmbraChat\\UmbraServer\\UmbraServer.csproj",
-        "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Desktop\\UmbraChat\\UmbraServer\\obj\\",
+        "projectPath": "D:\\Other\\UmbraChat\\UmbraServer\\UmbraServer.csproj",
+        "packagesPath": "C:\\Users\\Саба\\.nuget\\packages\\",
+        "outputPath": "D:\\Other\\UmbraChat\\UmbraServer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Саба\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

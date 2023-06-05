@@ -14,11 +14,13 @@
         Background="#0e0e0f"
         ResizeMode="CanResizeWithGrip"
         SizeChanged="Window_SizeChanged">
+    
     <!--Data Context-->
     <Window.DataContext>
         <viewmodel:MainViewModel />
     </Window.DataContext>
 
+    <!--Connect to Server on Load-->
     <b:Interaction.Triggers>
         <b:EventTrigger EventName="Loaded">
             <b:InvokeCommandAction
