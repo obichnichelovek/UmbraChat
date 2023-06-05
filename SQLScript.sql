@@ -1,4 +1,5 @@
-create database UmbraDB;
+create database UmbraDB
+go
 use UmbraDb;
 
 create table [User]
